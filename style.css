@@ -1,5 +1,129 @@
 * {
-    /* margin: 0; */
-    /* padding: 0; */
-    box-sizing: border-box;
-  }
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(182, 160, 249);
+}
+
+main {
+  /* background-color: rgb(222, 93, 226); */
+  margin-bottom: auto;
+}
+
+.footer {
+  background-color: #797979;
+  padding: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #f4f5f4;
+}
+.nav-link:hover {
+  color: #4238d3;
+}
+
+.section-item a {
+  color: #4238d3;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #6edffc;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.item {
+  width: 200px;
+  height: 100px;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.section-profile-logo {
+  width: 190px;
+  height: 190px;
+  /* object-fit: cover; */
+  border-radius: 50%;
+  filter: grayscale(0.2) brightness(0.9);
+  transition: 0.3s;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 2px solid #d7d1c9;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #797979;
+}
+
+.section-subtitle {
+  margin-top: 10px;
+  color: #797979;
+  font-size: 18px;
+}
+
+.main-title {
+  color: #4d2323;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.pre {
+  background-color: aliceblue;
+  width: 400px;
+}
+
+.section-last {
+  padding: 25px;
+}
+
